@@ -1,0 +1,50 @@
+{
+  "name": "saber",
+  "version": "3.4.0",
+  "scripts": {
+    "dev": "vite --host",
+    "prod": "vite --mode production",
+    "build": "vite build",
+    "build:prod": "vite build --mode production",
+    "serve": "vite preview --host"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "2.0.9",
+    "@saber/nf-design-base-elp": "^1.1.1",
+    "@smallwei/avue": "3.3.0",
+    "animate.css": "4.1.1",
+    "axios": "1.6.5",
+    "crypto-js": "4.2.0",
+    "dayjs": "1.11.10",
+    "element-plus": "2.5.1",
+    "js-base64": "3.7.5",
+    "js-cookie": "3.0.5",
+    "js-md5": "0.8.3",
+    "mockjs": "1.1.0",
+    "nprogress": "0.2.0",
+    "vite-plugin-mock": "3.0.1",
+    "vue": "3.4.14",
+    "vue-i18n": "9.9.0",
+    "vue-router": "4.2.5",
+    "vuex": "4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "5.0.3",
+    "@vue/compiler-sfc": "3.4.14",
+    "prettier": "3.2.4",
+    "sass": "1.70.0",
+    "unplugin-auto-import": "0.17.3",
+    "vite": "5.0.11",
+    "vite-plugin-compression": "0.5.1",
+    "vite-plugin-vue-setup-extend": "0.4.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.0",
+    "vue-router": ">=4.0.0",
+    "vuex": ">=4.0.0"
+  }
+}
